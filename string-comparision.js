@@ -10,3 +10,7 @@ const compareString = (strOne, strTwo) => {
 }
 
 compareString("james", "janet");
+
+
+
+
