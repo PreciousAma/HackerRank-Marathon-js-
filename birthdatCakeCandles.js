@@ -1,6 +1,7 @@
 const birthdayCakeCandles = (candles) => {
-
-  return 0;
+  let highest = Math.max(...candles);
+  let container = candles.filter((item) => {return item === highest});
+   return container.length;
 }
 
 const result1 = birthdayCakeCandles([3, 2, 1, 3]); // 2
